@@ -19,7 +19,7 @@ body {
 .navbar-nav a {
     text-transform: uppercase;
     color: #fff;    
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-right: 60px;
 }
 .bg1 {
@@ -30,8 +30,74 @@ body {
 .menu {
     margin-left: 150px;
 }
-
-
+main {
+    background-color: #65c1be;
+}
+.lorem {
+    columns: 2;
+}
+.about {
+    margin: 50px;
+}
+.about h6 {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Averia Serif Libre';
+    font-size: 68px;
+    line-height: 75px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.about p {
+    color: #ffffff;
+    font-family: 'Cormorant', sans-serif;
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 400
+}
+.three {
+    margin-top: 50px;
+}
+.preview {
+    columns: 3;
+    text-align: center;
+}
+.preview h4 {
+    margin-top: 30px;
+    color: #ffffff;
+    font-family: 'Averia Serif Libre';
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300;
+}
+.preview p {
+    color: #ffffff;
+    font-family: 'Cormorant', sans-serif;
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 400;
+    margin: 70px;
+    margin-top: 5px;
+}
+.preview a {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    padding: 150px;
+}
 footer {
     height: 550px;
     background-image: url(img/footer-image.jpg);
