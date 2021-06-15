@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding-top: 20px;
+    font-family: 'Cormorant', serif;
+    background-image: url(img/top-paspartu.jpg);
+    background-repeat: no-repeat;
+}
+.header-container {
+    padding-top: 20px;
+    height:240px;
+    background-color:#65c1be;
+}
+.navbar-nav {
+    margin-left: 400px;
+}
+.navbar-nav a {
+    text-transform: uppercase;
+    color: #fff;    
+    font-family: 'Raleway',sans-serif;
+    margin-right: 60px;
+}
+.bg1 {
+    padding-bottom: 26px;
+    background-image: url(img/top-paspartu.jpg);
+    background-repeat: no-repeat;
+}
+.menu {
+    margin-left: 150px;
+}
+
+
+footer {
+    height: 550px;
+    background-image: url(img/footer-image.jpg);
+    background-repeat: no-repeat;
+}
+.contact {
+    margin-left: 700px;
+}
+.logo {
+    padding-top: 150px;
+}
+.contact p {
+    text-align: center;
+    margin-left: -370px;
+    width: 900px;
+    padding-top: 30px;
+    color: #ffffff;
+    font-family: 'Cormorant', sans-serif;
+    font-size: 20px;
+    line-height: 31px;
+    font-style: normal;
+    font-weight: 400;
+}
+.socials {
+    margin-left: 40px;
+    padding-top: 20px;
+}
