@@ -9,27 +9,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Josefin+Sans:wght@100&family=Raleway:wght@200&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Satisfy&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
     <title>Cart</title>
   </head>
   <body>
+    <div class="wrapping-design">
+        <div class="right" style="background-image: url(img/top-paspartu.jpg);"></div>
+        <div class="left" style="background-image: url(img/top-paspartu.jpg);"></div>
+    </div>
     <header>
         <section class="header-container">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">
-                    <img src="img/bridge-logo.png" height="100%" alt="bridge">
-                  </a>
+                <a class="navbar-brand" href="javascript:void(0);">
+                    <img src="img/bridge-logo.png" height="100%" alt="bridge" style="margin-left: 20px;">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Contact</a>
-                    <a class="nav-link" href="#">Flavors</a>
-                    <a class="nav-link" href="#">Shop</a>
-                  </div>
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="flavors.html">Flavors</a>
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="menu">
@@ -55,17 +59,17 @@
                         </span>
                     </div>
                 </div>
-              </nav>
-              <div class="container">
-                  <div class="cart">
-                      <h1><span>Cart</span></h1>
-                  </div>
-              </div>
+            </nav>
+            <div class="cart">
+                <div class="cart-text">
+                    <h1><span>Cart</span></h1>
+                </div>
+            </div>
         </section>
         <section class="return-container">
             <div class="return">
                 <div>
-                    <p>Your cart is currrently empty</p>
+                    <p class="return-text">Your cart is currrently empty</p>
                     <a href="index.html"><button class="button"> Return to shop</button></a>
                 </div>
             </div>
