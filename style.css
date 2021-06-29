@@ -463,7 +463,7 @@ footer {
         overflow-x: hidden;
     }
     .left {
-        height: 1065%;
+        height: 995%;
         margin: -5% 0;
         width: 2%;
         position: absolute;
@@ -471,7 +471,7 @@ footer {
         left: 0;
     }
     .right {
-        height: 1065%;
+        height: 995%;
         margin: -5% 0;
         width: 2%;
         position: absolute;
@@ -485,7 +485,7 @@ footer {
         width: 300px;
         height: 300px;
         margin-top: -120px;
-        margin-left: -95px;
+        margin-left: -120px;
     }
     .carousel-inner img {
         width: 350px;
@@ -496,7 +496,7 @@ footer {
         margin-left: -200px !important;
     }
     .gelogo { 
-        padding-left: 200px;
+        padding-left: 170px;
         margin-top: 100px;
     }
     .intro h5 {
@@ -535,7 +535,7 @@ footer {
     }
     .preview {
         column-count: auto;
-        margin-left: -50px;
+        margin-left: -85px;
     }
     .preview a {
         padding: 100px;
@@ -641,7 +641,7 @@ footer {
         padding-right: 0px;
     }
     .contact {
-        margin-left: 150px;
+        margin-left: 110px;
     }
     .contact .logo {
         margin-left: 25px;
