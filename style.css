@@ -31,7 +31,7 @@ body {
     background-color:#65c1be;
 }
 .navbar-nav {
-    margin-left: 350px;
+    margin-left: auto;
 }
 .navbar-nav a {
     font-size: 12px;
@@ -51,7 +51,11 @@ body {
     background-repeat: no-repeat;
 }
 .menu {
-    margin-left: 100px;
+    margin-right: 4%;
+}
+.treats {
+    width: 90%;
+    margin: auto;
 }
 #ice-cream {
     background-color:#65c1be;
@@ -59,11 +63,14 @@ body {
 .slider {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 180px;
+    justify-content: space-evenly;
 }
 .carousel-inner {
     width: 900px;
     height: 540px;
+}
+.carousel {
+    width: 70%;
 }
 .made {
     margin: auto;
@@ -71,10 +78,9 @@ body {
 }
 .intro {
     margin-top: -180px;
-    padding-right: 50px;
 }
 .gelogo { 
-    padding-left: 100px;
+    padding-right: 4%;
     margin-top: 50px;
 }
 .intro h1 {
@@ -326,14 +332,15 @@ footer {
     background-repeat: no-repeat;
 }
 .contact {
-    margin-left: 700px;
+    text-align: center;
 }
 .logo {
     padding-top: 150px;
+
 }
 .contact p {
     text-align: center;
-    margin-left: -370px;
+    margin: auto;
     width: 900px;
     padding-top: 30px;
     color: #ffffff;
