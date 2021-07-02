@@ -288,15 +288,13 @@ footer {
     background-repeat: no-repeat;
 }
 .contact {
-    margin-left: 600px;
+    text-align: center;
 }
 .logo {
     padding-top: 150px;
 }
 .contact p {
     text-align: center;
-    margin-left: -370px;
-    width: 900px;
     padding-top: 30px;
     color: #ffffff;
     font-family: 'Cormorant', sans-serif;
@@ -319,4 +317,8 @@ i:hover{
 .clr{
     font-size: 18px;
     color: rgb(255, 255, 255);
+}
+.icons-bt{
+    display: flex;
+    justify-content: center;
 }

@@ -32,7 +32,7 @@ body {
     background-color:#65c1be;
 }
 .navbar-nav {
-    margin-left: 350px;
+    margin-left: auto;
 }
 .navbar-nav a {
     font-size: 12px;

@@ -13,6 +13,27 @@ body{
     height: 100vh;
     
 }
+.left{
+    height: 208vh;
+    margin: -5% 0;
+    width: 1.3%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    display: block;
+}
+.right{
+    position: absolute;
+    height: 208vh;
+    margin: -5% 0;
+    width: 1.3%;
+    top: 0;
+    right: 0;
+    z-index: 101;
+    display: block;
+
+}
 body > div.container > section > div.img-div > img{
     max-width: 100%;
     height: auto;
@@ -195,15 +216,13 @@ footer {
     background-repeat: no-repeat;
 }
 .contact {
-    margin-left: 550px;
+    text-align: center;
 }
 .logo {
     padding-top: 150px;
 }
 .contact p {
     text-align: center;
-    margin-left: -370px;
-    width: 900px;
     padding-top: 30px;
     color: #ffffff;
     font-family: 'Cormorant', sans-serif;
@@ -212,10 +231,11 @@ footer {
     font-style: normal;
     font-weight: 400;
 }
-.icons{
+.icons-bt{
     display: flex;
     padding-top: 4%;
     padding-left: 4%;
+    justify-content: center;
 }
 .facebook, .instagram, .twitter{
     padding-right: 4%;
@@ -303,9 +323,18 @@ i:hover{
   
   @media (min-width: 320px) and (max-width: 480px) {
     
+    .newsletter{
+        text-align: center;
+    }
+    .icons{
+        justify-content: center;
+    }
     .header-middle, .header-right{
         display: none;
     }    
+    .left, .right{
+        height: 174vh;
+    }
     body > header > section{
         justify-content: center;
     }
@@ -316,9 +345,6 @@ i:hover{
     }
     .subscribe_form{
         width: 100%;
-    }
-    .contact {
-        margin-left: 80px;
     }
     .contact p {
         font-size: 100%;

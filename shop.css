@@ -173,15 +173,13 @@ footer {
     background-repeat: no-repeat;
 }
 .contact {
-    margin-left: 550px;
+    text-align: center;
 }
 .logo {
     padding-top: 150px;
 }
 .contact p {
     text-align: center;
-    margin-left: -370px;
-    width: 900px;
     padding-top: 30px;
     color: #ffffff;
     font-family: 'Cormorant', sans-serif;
@@ -195,6 +193,11 @@ footer {
     padding-top: 4%;
     padding-left: 4%;
 }
+.icons-bt{
+    display: flex;
+    justify-content: center;
+}
+
 .facebook, .instagram, .twitter{
     padding-right: 4%;
 }
@@ -212,6 +215,12 @@ i:hover{
     }
     body > footer{
         overflow: hidden;
+    }
+    .left, .right{
+        height: 341vh;
+    }
+    .header-middle{
+        width: auto;
     }
 
     
@@ -290,27 +299,47 @@ i:hover{
   
   @media (min-width: 320px) and (max-width: 480px) {
     
-    .header-middle, .header-right{
-        display: none;
-    }    
-    body > header > section{
-        justify-content: center;
+        .header-middle, .header-right{
+            display: none;
+        }    
+        body > header > section{
+            justify-content: center;
+        }
+        body > div.container > section > div.flex_area{
+            padding-top: 15%;
+            padding-bottom: 10%;
+            flex-direction: column;
+        }
+        .subscribe_form{
+            width: 100%;
+        }
+        /* .contact {
+            margin-left: 80px;
+        } */
+        .contact p {
+            font-size: 100%;
+        }
+        footer{
+            overflow: hidden;
+        }
+        .first_row_cards, .first_row_cards_2{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .first_section {
+            flex-direction: column;
+        }
+        .second_section_cards{
+            display: flex;
+            flex-direction: column;
+        }
+        .container{
+            text-align: -webkit-center;
+        }
+        .left{
+            height: 707%;
+            }
+        .right{
+            height: 707%;
+            }
     }
-    body > div.container > section > div.flex_area{
-        padding-top: 15%;
-        padding-bottom: 10%;
-        flex-direction: column;
-    }
-    .subscribe_form{
-        width: 100%;
-    }
-    .contact {
-        margin-left: 80px;
-    }
-    .contact p {
-        font-size: 100%;
-    }
-    footer{
-        overflow: hidden;
-    }
-}    
