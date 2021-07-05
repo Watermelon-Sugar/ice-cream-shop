@@ -485,8 +485,11 @@ footer {
         top: 0;
         right: 0;
     }
-    .slider{
+    .slider {
         display: grid;
+        position: relative;
+        left: 35%;
+        
     }
     .carousel-inner {
         width: 300px;
@@ -651,7 +654,7 @@ footer {
         margin-left: 110px;
     }
     .contact .logo {
-        margin-left: 25px;
+        padding-right: 30%;
     }
     .contact p {
         text-align: center;
@@ -664,5 +667,8 @@ footer {
         font: size 15px;
         line-height: 31px;
         font-weight: 400;
+    }
+    .socials {
+        padding-right: 40%;
     }
 }
